@@ -18,7 +18,7 @@
 }
 
 body {
-background-color: #333;
+background-color: #292f4a;
 }
 
 footer a {

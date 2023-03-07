@@ -65,7 +65,7 @@ const sendMessage = async (input) => {
     messages.value.push({
         id: messageId,
         text: input,
-        role: 'user',
+        role: 'you',
     });
 
     messages.value.push({
@@ -255,7 +255,7 @@ if (!process.server) {
                         <!-- message text -->
                         <div
                             class="prose prose-sm prose-chatgpt break-words max-w-6xl"
-                            v-html="(message.role === 'user' || message.raw) ? parseMarkdown(message.text) : parseMarkdown(message.text, true)"
+                            v-html="(message.role === 'you' || message.raw) ? parseMarkdown(message.text) : parseMarkdown(message.text, true)"
                         />
                     </div>
                 </div>
