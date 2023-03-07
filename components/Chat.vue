@@ -71,7 +71,7 @@ const sendMessage = async (input) => {
     messages.value.push({
         id: uuidv4(),
         text: '',
-        role: 'bot',
+        role: 'sydney',
     });
 
     await nextTick();
@@ -243,7 +243,7 @@ if (!process.server) {
                     <div
                         class="p-3 rounded-sm"
                         :class="{
-                            'bg-white/10 backdrop-blur-sm shadow': message.role === 'bot',
+                            'bg-white/10 backdrop-blur-sm shadow': message.role === 'sydney',
                         }"
                     >
                         <!-- role name -->
