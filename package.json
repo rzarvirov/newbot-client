@@ -9,12 +9,14 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.4.1",
+    "@sidebase/nuxt-auth": "^0.4.3",
     "@tailwindcss/typography": "^0.5.9",
     "nuxt": "^3.2.3",
     "nuxt-icon": "^0.3.2"
   },
   "dependencies": {
     "@microsoft/fetch-event-source": "^2.0.1",
+    "@nuxtjs/auth": "^4.9.1",
     "highlight.js": "^11.7.0",
     "isomorphic-dompurify": "^1.0.0",
     "marked": "^4.2.12",
